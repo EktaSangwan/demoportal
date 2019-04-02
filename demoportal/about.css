@@ -1,0 +1,39 @@
+.row {
+    margin: 10px !important;
+}
+
+.page-footer {
+    max-width: 100% !important;
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+}
+
+.main-body {
+    width: 95%;
+    max-width: 100% !important;
+    min-width: 95%;
+    margin: 0px !important;
+    margin-top: 15px;
+    max-height: 75vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
